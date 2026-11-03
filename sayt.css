@@ -1,5 +1,5 @@
 /* ==========================================================
-   LUMÉ BEAUTY — style.css
+   ZEHRA BEAUTY — style.css
    1 Variables  2 Base  3 Header  4 Hero  5 Shared  6 Categories
    7 Brands  8 Products  9 Arrivals/Icons  10 Promo/Editorial
    11 Newsletter  12 Footer  13 Responsive  14 Reduced motion
@@ -21,7 +21,7 @@
   --shadow: 0 10px 30px rgba(46, 43, 41, .09);
   --ease: .4s ease;
 }
-
+/*
 /* 2. BASE */
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 80px; }
@@ -193,4 +193,4 @@ ul { list-style: none; margin: 0; padding: 0; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
-}
+} 
